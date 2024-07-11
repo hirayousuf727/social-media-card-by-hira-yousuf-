@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>assignment 2 css in card </title>
+        <style>
+          body {
+            font-family: sans-serif;
+          }
+      
+          .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+          }
+      
+          .card {
+            width: 250px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+          }
+      
+          .icon {
+            width: 50px;
+            height: 50px;
+            margin-bottom: 10px;
+            border-radius: 50%;
+          }
+      
+          .title {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+          }
+      
+          .text {
+            margin-bottom: 10px;
+          }
+      
+          .button {
+            background-color: #000;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+          }
+      
+          .card.instagram {
+            background-color: #ff0084;
+            color: #fff;
+          }
+        </style>
+      </head>
+      <body>
+        <div class="container">
+          <div class="card">
+            <img src="imges/twitter.png" alt="Twitter Logo" class="icon">
+            <h2 class="title">TWITTER</h2>
+            <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita ullam aliquid non eligendi, nemo est neque reiciendis error?</p>
+            <button class="button">READ MORE</button>
+          </div>
+          <div class="card instagram">
+            <img src="imges/insta 2.jpg" alt="Instagram Logo" class="icon">
+            <h2 class="title">INSTAGRAM</h2>
+            <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita ullam aliquid non eligendi, nemo est neque reiciendis error?</p>
+            <button class="button">READ MORE</button>
+          </div>
+          <div class="card">
+            <img src="imges/iyoutube.png" alt="YouTube Logo" class="icon">
+            <h2 class="title">YOUTUBE</h2>
+            <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita ullam aliquid non eligendi, nemo est neque reiciendis error?</p>
+            <button class="button">READ MORE</button>
+          </div>
+        </div>
+      
+      </body>
+</html>
